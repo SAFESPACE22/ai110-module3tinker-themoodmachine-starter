@@ -50,6 +50,16 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Oh great, another Monday",
+    "lowkey stressed but proud of myself ngl",
+    "I'm fine :)",
+    "this is literally the worst thing ever",
+    "not bad at all actually",
+    "I'm exhausted but I finally finished it",
+    "just vibing no complaints",
+    "I can't believe how amazing today was",
+    "feeling super anxious about tomorrow",
+    "whatever I guess it's fine",
 ]
 
 # Human labels for each post above.
@@ -65,6 +75,16 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "negative",  # "Oh great, another Monday" (sarcasm)
+    "mixed",     # "lowkey stressed but proud of myself ngl"
+    "positive",  # "I'm fine :)"
+    "negative",  # "this is literally the worst thing ever"
+    "positive",  # "not bad at all actually"
+    "mixed",     # "I'm exhausted but I finally finished it"
+    "positive",  # "just vibing no complaints"
+    "positive",  # "I can't believe how amazing today was"
+    "negative",  # "feeling super anxious about tomorrow"
+    "neutral",   # "whatever I guess it's fine"
 ]
 
 # TODO: Add 5-10 more posts and labels.

@@ -12,11 +12,11 @@
 ---
 
 ## Part 2: Engineer the Rule-Based Brain
-- [ ] Open `mood_analyzer.py` and review `preprocess`, `score_text`, `predict_label`
-- [ ] Improve `preprocess` (e.g. remove punctuation, handle basic emojis)
-- [ ] Implement `score_text` — loop tokens, +1 for positive words, -1 for negative
-- [ ] Add at least ONE enhancement (negation handling, word weighting, emoji signals)
-- [ ] Implement `predict_label` — map score to "positive", "negative", "neutral", or "mixed"
+- [x] Open `mood_analyzer.py` and review `preprocess`, `score_text`, `predict_label`
+- [x] Improve `preprocess` (removes punctuation, maps text emojis like ":)" to words)
+- [x] Implement `score_text` — loop tokens, +1 for positive words, -1 for negative
+- [x] Add at least ONE enhancement (negation handling: "not happy" flips the score)
+- [x] Implement `predict_label` — maps score to "positive", "negative", "neutral", or "mixed"
 - [ ] Run `python main.py` and test a few obvious cases
 - [ ] Print intermediate values (tokens, scores) if predictions look wrong
 

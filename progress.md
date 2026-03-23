@@ -48,15 +48,14 @@
 ---
 
 ## Part 5: The Model Card
-- [ ] Open `model_card.md`
-- [ ] Fill in **Section 1** — model type, intended purpose, how it works
-- [ ] Fill in **Section 2** — dataset description, labeling process, characteristics
-- [ ] Fill in **Section 3** — rule-based scoring rules, strengths, weaknesses
-- [ ] Fill in **Section 4** — ML model features, training behavior, strengths/weaknesses
-- [ ] Fill in **Section 5** — evaluation results, correct/incorrect prediction examples
-- [ ] Fill in **Section 6** — known limitations with specific examples
-- [ ] Fill in **Section 7** — ethical considerations
-- [ ] Fill in **Section 8** — ideas for improvement
-- [ ] Add ML vs rule-based comparison based on `ml_experiments.py` results
+- [x] Fill in **Section 1** — both models described (rule-based + ML)
+- [x] Fill in **Section 2** — 16 posts, labeling decisions documented, edge cases noted
+- [x] Fill in **Section 3** — scoring rules, negation handling, emoji conversion, strengths/weaknesses
+- [x] Fill in **Section 4** — bag-of-words + logistic regression, overfitting noted
+- [x] Fill in **Section 5** — rule-based 0.94, ML 1.00 (overfitted), examples of correct/incorrect predictions
+- [x] Fill in **Section 6** — sarcasm, small dataset, no test set, vocabulary coverage
+- [x] Fill in **Section 7** — distress misclassification, language bias, privacy, false confidence
+- [x] Fill in **Section 8** — more data, TF-IDF, test set, transformer model, emoji expansion
+- [x] ML vs rule-based comparison included in sections 4 and 5
 
-**Checkpoint:** A reader can open the repo, read the model card, and clearly understand how the Mood Machine works, what data shaped it, where it succeeds, and where it fails.
+**Checkpoint:** A reader can open the repo, read the model card, and clearly understand how the Mood Machine works, what data shaped it, where it succeeds, and where it fails. ✓

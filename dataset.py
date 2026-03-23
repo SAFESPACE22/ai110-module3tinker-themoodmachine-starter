@@ -30,6 +30,12 @@ POSITIVE_WORDS = [
     "wonderful",
     "vibing",
     "grateful",
+    "finished",
+    "accomplished",
+    "done",
+    "achieved",
+    "succeeded",
+    "made",
 ]
 
 NEGATIVE_WORDS = [
